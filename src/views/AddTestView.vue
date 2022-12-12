@@ -189,6 +189,7 @@ export default {
         },
         options: this.finalOptions(),
       });
+      this.$store.dispatch("test/getTest", this.$route.params.id);
       this.question = "";
       this.type = "";
       this.options = [{ option: "", isAnswer: false }];

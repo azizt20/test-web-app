@@ -1,6 +1,6 @@
 <template>
     <div
-        class="w-screen h-screen flex items-center justify-center bg-transparent backdrop-blur-sm absolute left-0 top-0">
+        class="w-screen h-screen flex items-center justify-center bg-transparent backdrop-blur-sm fixed left-0 top-0">
         <form @submit.prevent="addStudent()" class="rounded-xl shadow-xl bg-white w-1/2 min-h-1/2 p-4 border">
             <div class="flex items-center justify-between">
                 <h3 class="text-2xl font-medium">Внести изменеия </h3>
