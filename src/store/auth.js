@@ -51,6 +51,7 @@ export default {
                         resolve();
                     })
                     .catch((error) => {
+                        alert("Не верный логин или пароль")
                         reject(error);
                     });
             });
